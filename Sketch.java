@@ -7,12 +7,12 @@ public class Sketch extends PApplet {
   * @author: D. Gu
   */
 
-// Create the time and location variables
-float fltCatHeadX;
-float fltCatHeadY;
-int intHours;
-int intMinutes;
-int intSeconds;
+  // Create the time and location variables
+  float fltCatHeadX;
+  float fltCatHeadY;
+  int intHours;
+  int intMinutes;
+  int intSeconds;
 	
   public void settings() {
     // Size of sketchpad and randomly generating values for the cat head position
