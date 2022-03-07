@@ -15,7 +15,7 @@ int intMinutes;
 int intSeconds;
 	
   public void settings() {
-	  // Size of sketchpad and randomly generating values for the cat head position
+    // Size of sketchpad and randomly generating values for the cat head position
     size(400, 400);
     catHeadX = random(0, width);
     catHeadY = random(0, height);
@@ -26,7 +26,7 @@ int intSeconds;
     // Prints out current time
     System.out.print ("The current time is "+intHours + " hours and ");
     System.out.print (+intMinutes + " minutes and ");
-     System.out.print (+intSeconds + " seconds");
+    System.out.print (+intSeconds + " seconds");
   }
 
   public void draw() {
