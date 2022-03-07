@@ -36,18 +36,18 @@ int intSeconds;
     // Turquoise background
     if(fltCatHeadX > fltHeadSize && fltCatHeadY > fltHeadSize){ 
       background(0, 140, 128);
-      
-      // Green background
-      }else if (!(fltCatHeadX > fltHeadSize || fltCatHeadY > fltHeadSize)){
-        background(0, 200, 0);
-      
-      // Pink background
-      }else if (fltCatHeadX < fltHeadSize && fltCatHeadY > fltHeadSize){
-        background(200, 0, 120);
-      
-      // Gray background
-      }else if (fltCatHeadX > fltHeadSize && fltCatHeadY < fltHeadSize){
-        background(123, 123, 123);
+      }    
+    // Green background
+    else if (!(fltCatHeadX > fltHeadSize || fltCatHeadY > fltHeadSize)){
+       background(0, 200, 0);
+      }  
+    // Pink background
+    else if (fltCatHeadX < fltHeadSize && fltCatHeadY > fltHeadSize){
+      background(200, 0, 120);
+      }
+    // Gray background
+    else if (fltCatHeadX > fltHeadSize && fltCatHeadY < fltHeadSize){
+      background(123, 123, 123);
       }
     
     // Draw the head
@@ -58,7 +58,7 @@ int intSeconds;
     stroke(0);
     line((float)(fltCatHeadX - fltHeadSize/1.5), (float)(fltCatHeadY - fltHeadSize/1.5), (fltCatHeadX - fltHeadSize/4), (float)(fltCatHeadY - fltHeadSize/2.4));
     line((float)(fltCatHeadX - fltHeadSize/1.5), (float)(fltCatHeadY - fltHeadSize/1.5), (float)(fltCatHeadX - fltHeadSize/2), (float)(fltCatHeadY - fltHeadSize/10));
-     line((float)(fltCatHeadX + fltHeadSize/1.5), (float)(fltCatHeadY - fltHeadSize/1.5), (fltCatHeadX + fltHeadSize/4), (float)(fltCatHeadY - fltHeadSize/2.4));
+    line((float)(fltCatHeadX + fltHeadSize/1.5), (float)(fltCatHeadY - fltHeadSize/1.5), (fltCatHeadX + fltHeadSize/4), (float)(fltCatHeadY - fltHeadSize/2.4));
     line((float)(fltCatHeadX + fltHeadSize/1.5), (float)(fltCatHeadY - fltHeadSize/1.5), (float)(fltCatHeadX + fltHeadSize/2), (float)(fltCatHeadY - fltHeadSize/10));    
     
     // Draw the eyes
